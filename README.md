@@ -1,3 +1,12 @@
+## Phase 2 — Power BI Interactive Dashboard
+
+Three-page interactive dashboard with 12 DAX measures, slicer-driven
+cross-filtering, and documented data-quality fixes.
+
+[→ View Phase 2](powerbi/)
+
+![Dashboard preview](powerbi/image/PowerBI_Page1_Overview.png)
+
 # 🏭 B2B Industrial Tender Analytics — Sugar Industry Focus
 
 > **A 4-year deep dive into Indonesian B2B equipment tender patterns.**
