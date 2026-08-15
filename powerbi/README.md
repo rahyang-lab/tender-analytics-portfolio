@@ -2,7 +2,7 @@
 
 Interactive three-page dashboard built on 104 B2B industrial equipment tenders (2022–2025). Phase 2 of the Tender Analytics portfolio project — Phase 1 covered the exploratory analysis; this phase turns those findings into something a sales director could actually use on a Monday morning.
 
-![Executive Overview](images/PowerBI_Page1_Overview.png)
+![Executive Overview](image/PowerBI_Page1_Overview.png)
 
 ---
 
@@ -147,7 +147,7 @@ Stated plainly, because a dashboard that hides its own weak points is worth less
 /powerbi
    TenderDashboard_FINAL.pbix          Power BI Desktop file
    README.md                            this document
-   /images
+   /image
       PowerBI_Page1_Overview.png
       PowerBI_Page2_DeepDive.png
       PowerBI_Page3_Detail.png
