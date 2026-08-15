@@ -1,3 +1,12 @@
+## Phase 2 — Power BI Interactive Dashboard
+
+Three-page interactive dashboard with 12 DAX measures, slicer-driven
+cross-filtering, and documented data-quality fixes.
+
+[→ View Phase 2](powerbi/)
+
+![Dashboard preview](powerbi/images/PowerBI_Page1_Overview.png)
+
 # Power BI Interactive Dashboard — Tender Win-Loss Analytics
 
 Interactive three-page dashboard built on 104 B2B industrial equipment tenders (2022–2025). Phase 2 of the Tender Analytics portfolio project — Phase 1 covered the exploratory analysis; this phase turns those findings into something a sales director could actually use on a Monday morning.
