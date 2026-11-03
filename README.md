@@ -144,7 +144,7 @@ The 1-page executive dashboard summarizes all 17 insights in a single visual:
 
 ![Tender Analytics Dashboard](images/tender_dashboard.png)
 
-**Download:** [Tender Dashboard PDF](exports/Tender_Dashboard.pdf)
+**Download:** [Tender Dashboard PDF](export/Tender_Dashboard.pdf)
 
 **Includes:**
 - 5 KPI Cards (Total Tenders, Win Rate, Total Value, Insights, Trend)
