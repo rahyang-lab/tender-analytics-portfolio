@@ -1,3 +1,14 @@
+## New — Indonesia Gearbox Import Analysis (public UN Comtrade data)
+
+Two-page Power BI dashboard on Indonesia's gearbox imports (HS 8483.40), 2019–2025:
+market +38%, China + Japan share 52.5% → 61.2%, concentration (HHI) 1,591 → 2,065.
+
+[→ View analysis](import-analysis/)
+
+![Gearbox import dashboard](import-analysis/ImportGearbox_v1_001.png)
+
+---
+
 ## Phase 2 — Power BI Interactive Dashboard
 
 Three-page interactive dashboard with 12 DAX measures, slicer-driven
@@ -51,7 +62,7 @@ This project is what happens when you take that data and ask the right questions
 | **Dashboard Design** | 1-page executive dashboard with KPI cards, multi-chart layout |
 | **Business Intelligence** | Translating raw data into 17 strategic insights with strategic implications |
 
-**Currently learning:** SQL (HackerRank Basic), Power BI, Python (Pandas)
+**Also used in this repo:** Power BI (DAX), SQL (SQLite). **Currently learning:** Python (Pandas)
 
 ---
 
@@ -151,10 +162,10 @@ tender-analytics-portfolio/
 ├── data/
 │   └── tender_dataset.csv             (104 records, synthetic)
 ├── analysis/
-│   └── Tender_Analysis_Master.xlsx    (full Excel: pivot tables + 17 insights)
+│   └── Tender_Analysis_Master.xlsx    (Phase 1: pivot tables + 17 insights)
 ├── docs/
 │   ├── methodology.md                 (analytical approach explained)
-│   ├── insights_regional.md           (deep dive on Regional Cross-Analysis)
+│   ├── insight_regional.md            (deep dive on Regional Cross-Analysis)
 │   └── project_overview.md            (project context)
 ├── images/
 │   ├── tender_dashboard.png           (1-page executive dashboard)
@@ -162,19 +173,25 @@ tender-analytics-portfolio/
 │   ├── Loss_Reasons_Donut.png         (loss breakdown)
 │   ├── Quarterly_Trend_Chart.png      (4-year trend)
 │   └── Regional_Stacked_Bar_Chart.png (regional pattern)
-└── exports/
-    └── Tender_Dashboard.pdf            (printable executive version)
+├── export/
+│   └── Tender_Dashboard.pdf           (Phase 1 printable executive version)
+├── powerbi/                           (Phase 2: 3-page interactive dashboard, .pbix + PDF + previews)
+├── sql/                               (Phase 3: SQLite schema, 8 queries, results)
+└── import-analysis/                   (separate project: Indonesia gearbox imports 2019–2025, public data, Power BI)
 ```
 
 ---
 
-## 🚀 What's Next
+## 🚀 Progress & What's Next
 
-This project is **Phase 1 (Excel)**. Coming next:
+| Phase | Tool | Status | Folder |
+|---|---|---|---|
+| 1 | Excel | ✅ Done | [analysis/](analysis/), [images/](images/), [export/](export/) |
+| 2 | Power BI | ✅ Done: 3 pages, 12 DAX measures | [powerbi/](powerbi/) |
+| 3 | SQL (SQLite) | ✅ Done: re-checked Phase 1–2 findings with 8 queries | [sql/](sql/) |
+| 4 | Python | ⏳ Planned: predict win probability from tender attributes | — |
 
-- **Phase 2 (Power BI):** Interactive dashboard with drill-through filters
-- **Phase 3 (SQL):** Migrate dataset to SQLite, demonstrate complex queries
-- **Phase 4 (Python):** Predictive modeling — predict win probability based on tender attributes
+**Separate project (public data):** [import-analysis/](import-analysis/), Indonesia gearbox imports 2019–2025 from UN Comtrade, built in Power BI.
 
 ⭐ Star this repo for updates!
 
@@ -209,7 +226,7 @@ Project portfolio ini menganalisis **104 data tender peralatan industri B2B (202
 - ✅ Performance improvement +13.1% (4 tahun)
 
 **Tools:** Excel Advanced (Pivot Tables, COUNTIFS, charts, dashboard)
-**Sedang dipelajari:** SQL, Power BI, Python
+**Juga dipakai di repo ini:** Power BI, SQL (SQLite). **Sedang dipelajari:** Python
 
 Saat ini terbuka untuk peluang sebagai Data Analyst, Business Analyst, atau freelance projects.
 
